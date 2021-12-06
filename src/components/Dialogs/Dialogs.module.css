@@ -1,0 +1,18 @@
+.dialogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogsBlock {
+    flex-grow: 1;
+    padding: 20px;
+    flex-basis: 30%;
+}
+
+.messagesBlock {
+    flex-basis: 68%;
+    padding: 20px;
+}
+
+
+

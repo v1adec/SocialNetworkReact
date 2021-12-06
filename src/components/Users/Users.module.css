@@ -1,0 +1,16 @@
+.usersBlock{
+    padding: 20px;
+}
+
+.userPhoto{
+    width: 100px;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+.page{
+    margin-right: 10px;
+    cursor: pointer;
+}

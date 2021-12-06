@@ -1,0 +1,13 @@
+.descriptionBlock{
+    padding: 20px;
+}
+
+.profileImage{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.profileImage img{
+    max-width: 100%;
+}

@@ -1,0 +1,60 @@
+.newPostBlock{
+    margin-bottom: 30px;
+}
+
+p .boldText{
+    font-weight: 700;
+}
+
+
+.newPostCreationBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textareaBlock{
+    flex-basis: 93%;
+}
+
+.textareaBlock textarea{
+    resize: none;
+    font-family: inherit;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.textareaBlock .text{
+    resize: none;
+    font-family: inherit;
+    height: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.buttonBlock{
+    flex-basis: 5%;
+}
+
+.newPostCreationBlock button{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newPostCreationBlock button:hover{
+    background-color: #777;
+}
+
+button img{
+    width: 20px;
+}
+
+button div{
+    font-size: 10px;
+    color: #9f9da3;
+}

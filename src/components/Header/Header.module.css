@@ -1,0 +1,19 @@
+.header {
+    grid-area: h;
+    /*background-color: rgba(91, 118, 69, 0.37);*/
+    /*background-color: #4d4957;*/
+    background-color: #9f9da3;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 30px;
+}
+
+.header h1{
+    font-size: 12px;
+}

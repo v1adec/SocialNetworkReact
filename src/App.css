@@ -1,0 +1,27 @@
+.app-wrapper {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: /*header - занимает 2 колонки*/ /*nav и content - занимают по 1 колонке*/
+            'h h'
+            'n c';
+}
+
+.app-wrapper-block{
+    grid-area: c;
+    /*background-color: rgba(91, 94, 118, 0.37);*/
+    /*background-color: #4d4957;*/
+    background-color: #9f9da3;
+    /*padding-right: 5px;*/
+}
+
+.app-wrapper-content{
+    background-color: #e7e6e6;
+    overflow: hidden;
+    height: 100%;
+    border-top-left-radius: 20px;
+    /*border-top-right-radius: 20px;*/
+}
+

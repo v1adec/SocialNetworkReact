@@ -1,0 +1,30 @@
+.createNewMessageBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textareaBlock {
+    flex-basis: 92%;
+}
+
+.textareaBlock textarea {
+    resize: none;
+    font-family: inherit;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.btnBlock button {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e7e6e6;
+}
+
+.btnBlock img {
+    width: 20px;
+}
+

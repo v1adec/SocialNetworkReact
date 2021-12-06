@@ -1,0 +1,14 @@
+.error input,
+.error textarea {
+    border: 1px solid darkred;
+}
+
+.formControl span {
+    color: darkred;
+}
+
+.formSummaryError {
+    color: darkred;
+    border: 1px solid darkred;
+    padding: 5px;
+}

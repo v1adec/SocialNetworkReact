@@ -1,0 +1,12 @@
+.active{
+    color: #b71a23;
+    font-weight: bold;
+}
+
+.dialog a:active{
+    text-decoration: none;
+}
+
+.dialog .active{
+    color: gold;
+}
